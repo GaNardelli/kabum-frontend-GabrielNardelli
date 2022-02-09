@@ -1,0 +1,103 @@
+@media (max-width: 1300px) {
+  .header-search {
+    width: 80%;
+    margin-left: 20%;
+  }
+  .endereco-info {
+    margin-left: 10%;
+  }
+  .shop-icons {
+    display: none;
+  }
+  .products-display-footer {
+    &-item {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      align-self: left;
+      overflow: hidden;
+      &__img {
+        transform: scale(0.8);
+      }
+    }
+  }
+}
+
+@media (max-width: 1090px) {
+  .products-display-footer {
+    flex-direction: column;
+    height: 60%;
+    align-items: center;
+    &__img {
+      transform: scale(1.2);
+    }
+  }
+}
+
+@media (max-width: 995px) {
+  .header-search {
+    width: 50%;
+    margin-left: 16%;
+  }
+  .endereco-info {
+    margin-left: 10%;
+  }
+  .navigation-item {
+    width: 18%;
+    &:first-child {
+      width: 22%;
+    }
+    &__text {
+      font-size: 70%;
+    }
+  }
+  .login {
+    display: none;
+  }
+  .menu-btn {
+    left: 92%;
+  }
+  .products-display-footer {
+    &-item {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      align-self: left;
+      overflow: hidden;
+      &__img {
+        transform: scale(0.8);
+      }
+    }
+  }
+}
+
+@media (max-width: 930px) {
+  .navigation,
+  .endereco-info__label,
+  .navigation-item__arrow {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  body,
+  .header,
+  .banner {
+    width: 100%;
+    margin: 0;
+  }
+
+  .header {
+    display: inline-block;
+    &-img__logo {
+      transform: scale(0.6) translateY(-50px) translateX(-40px);
+    }
+    &-search {
+      transform: translateY(-60px) scale(0.7) translateX(-70px);
+    }
+  }
+
+  .menu-btn {
+    transform: translateY(50px) translateX(-40px);
+  }
+}

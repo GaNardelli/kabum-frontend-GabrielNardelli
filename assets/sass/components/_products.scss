@@ -1,0 +1,76 @@
+.banner {
+  position: relative;
+  &-img {
+    width: 100vw;
+    background-repeat: no-repeat;
+  }
+}
+.products-display {
+  width: 94.4%;
+  height: 1336px;
+  position: absolute;
+  margin: auto;
+  left: 40px;
+  top: 50%;
+  color: $--white-text-1;
+  text-transform: uppercase;
+  position: absolute;
+  &-time {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &__label {
+      font-weight: 700;
+      font-size: 16px;
+      margin-right: 8px;
+    }
+    &__time {
+      font-weight: 800;
+      font-size: 25.49px;
+
+      &::before {
+        content: url("/assets/img/clock-promotion.svg");
+        position: relative;
+        margin-right: 8px;
+      }
+    }
+  }
+
+  &-header {
+    background-color: $--secondary-orange;
+    padding: 18px 72px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 68px;
+    &__h2 {
+      font-weight: 800;
+      font-size: 24px;
+      line-height: 32px;
+    }
+  }
+
+  &-carousel__box {
+    height: 487px;
+    background-color: $--background-products;
+  }
+
+  &-footer {
+    height: 338px;
+    background-color: $--background-products;
+  }
+}
+
+.rate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &-indicator {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    color: rgba(127, 133, 141, 1);
+    margin-left: 5px;
+  }
+}

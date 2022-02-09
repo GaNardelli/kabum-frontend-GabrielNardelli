@@ -1,0 +1,37 @@
+.navigation {
+  height: 28px;
+  background-color: $--secondary-orange;
+  display: flex;
+  align-items: center;
+  width: 100vw;
+
+  &-item {
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 210px;
+
+    &__text {
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 24px;
+      color: rgba(255, 255, 255, 1);
+      &:first-child {
+        margin-right: 11px;
+      }
+    }
+    &__arrow {
+      width: 7.68;
+      height: 13;
+      margin: 10.66px 9.95px 9.96px 12px;
+    }
+    &:first-child {
+      background-color: rgba(227, 82, 20, 1);
+      padding-left: 128px;
+      width: 373px;
+      justify-content: right;
+    }
+  }
+}

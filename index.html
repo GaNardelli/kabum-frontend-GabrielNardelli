@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    
+  </head>
+  <body>
+    <header class="header">
+        <div class="menu-btn hide">
+            <div class="menu-btn__burger">
+
+            </div>
+          </div>
+      <h1 class="header-img__logo">
+        <img src="assets/img/logo-header.png" alt="logo-cabeçalho" />
+      </h1>
+      <div class="div">
+      <div class="header-search">
+        <input
+          type="search"
+          id="header-search"
+          class="header-search__input"
+          placeholder="Busque aqui"
+        />
+        <input type="submit" class="header-search__submit" />
+      </div>
+      <div class="endereco-info hide">
+          <p class="endereco-info__label">Enviar para: <span class="endereco-info__adrs">Rua das Hortências, 295 - Boa Vista - Limeira SP</span></p>
+          <a href=""><img class='navigation-item__arrow'src="assets/img/Arrows/Chevron/Down.svg" alt=""></a>          
+      </div>
+    </div>
+      <div class="login">
+        <div class="btn login-icon">
+          <img src="/assets/img/login-icon.svg" alt="login-icon" data-login-img/>
+        </div>
+        <div class="login-text">
+          <p class="login-text__disconected ">
+            Faça
+            <a href="#" class="btn-login"
+              ><span class="login-text__bolder">Login</span></a
+            >
+            ou <br />
+            crie seu
+            <a href="#" class="btn-register">
+              <span class="login-text__bolder"> Cadastro </span></a
+            >
+          </p>
+          <p class="logged-text__logged hide">     
+                       
+              <span class="logged-text__bolder">Olá <span data-name-profile>Luis Henrique</span>
+        
+            <br />
+              <a class="btn logged-text__my-acc">MINHA CONTA </a> <a class=" btn logged-text__exit">SAIR</a> 
+          </p>
+        </div>
+      </div>
+      <div class="shop-icons">
+        <a href="#" class="btn-shopping">
+            <div class="shop-icons__baseline hide">
+              <img src="/assets/img/ic_baseline-notifications.svg" alt="favorite-icon" />
+            </div>
+          </a>
+        <a href="#" class="btn btn-shopping">
+          <div class="shop-icons__heart">
+            <img src="/assets/img/icon-heart.svg" alt="favorite-icon" />
+          </div>
+        </a>
+        <a href="#" class="btn btn-shopping">
+          <div class="shop-icons__cart">
+            <img
+              src="/assets/img/ic_baseline-shopping-cart.svg"
+              alt="shopping-cart-icon"
+            />
+          </div>
+        </a>
+    </div>
+    </header>
+    <nav class="navigation hide">
+        <div class="navigation-item"><a class="navigation-item__text" href="#">TODOS OS DEPARTAMENTOS</a><a href=""><img class='btn navigation-item__arrow'src="assets/img/Arrows/Chevron/Down.svg" alt="down-arrow"></a></div>
+        <div class="navigation-item"><a  class="navigation-item__text" href="#">SEJA PRIME</a></div>
+        <div class="navigation-item"><a class="navigation-item__text" href="#">CENTRAL DE ATENDIMENTO</a></div>
+    </nav>
+    <main>
+      <div class="banner">
+        <img
+          src="/assets/img/BannerTOPO 2.jpg"
+          alt="Banner-Principal"
+          class="banner-img"
+        />
+      </div>
+      <div class="products-display">
+        <div class="products-display-header">
+          <h2 class="products-display-header__h2">Black Friday</h2>
+          <div class="products-display-time">
+            <h3 class="products-display-time__label">A promoção termina em:</h3>
+            <h2 class="products-display-time__time">13D 18:15:56</h2>
+          </div>
+        </div>
+        <div class="container-carousel">
+            <div class="btn carousel-item__arrow left">
+            <a href="#" ><img  src="assets/img/Arrows/Chevron/Back.svg" alt="right-arrow"></a>
+        </div>
+        <div class="products-display-carousel__box">
+          <div class="display-carousel">
+              <div class="products-display-carousel__inner-box">
+                  <div class="products-display-carousel__inner-box-header">
+                      <a href="" class="btn favicon">
+                      <div >
+                        <img src="assets/img/fav-icon-product.svg" alt="favorite-item-icon">
+                      </div>
+                    </a>
+                      <div class="rate">
+                        <img class='star-1' src="assets/img/stars/StarFill.svg" alt="star-fill">
+                        <img class='star-2' src="assets/img/stars/StarFill.svg" alt="star-fill">
+                        <img class='star-3' src="assets/img/stars/StarFill.svg" alt="star-fill">
+                        <img class='star-4' src="assets/img/stars/StarFill.svg" alt="star-fill">
+                        <img class='star-5' src="assets/img/stars/StarFill.svg" alt="star-fill">
+                        <p class="rate-indicator">5</p>
+                      </div>
+                  </div>
+                  <div class="products-display-carousel__inner-box-img"></div>
+                  <div class="products-display-carousel__inner-box-desc"></div>
+                  <div class="products-display-carousel__inner-box-price"></div>
+                  <p class="a-vista">À vista</p>
+                  <div class="products-display-carousel__inner-box-infos">
+                    <div class="frete"><p class="delivery">Frete Grátis</p>
+                    <p class="open-box">Open Box</p></div>
+                  </div>
+                  <a class="btn btn-comprar">Comprar</a>
+              </div>
+              
+          </div>
+        </div>
+        <div class="btn carousel-item__arrow right">
+        <a href="" ><img style="transform:rotate(180deg);" src="assets/img/Arrows/Chevron/Back.svg" alt="left-arrow"></a>
+    </div>
+    </div>
+        
+        <div class="products-display-footer">
+            <div class="products-display-footer-item">
+                <div class="products-display-footer-item__text">
+                    <h3 class='products-display-footer-item__text-title'>Venda o seu produto</h3>
+                    <p>Venda o seu produto usado em nosso marketplace.</p>
+                </div>
+                <div class="products-display-footer-item__img">
+                    <img src="./assets/img/venda_seu_produto.png" alt="venda-seu-produto">
+                </div>
+            </div>
+            <div class="products-display-footer-item">
+                <div class="products-display-footer-item__text">
+                    <h3 class='products-display-footer-item__text-title'>CONHEÇA OS PRODUTOS PRIME</h3>
+                    <p>Fique por dentro de todos os nossoa benefícios.</p>
+                </div>
+                <div class="products-display-footer-item__img">
+                    <img src="./assets/img/conheca_os_primes.png" alt="conheca-os-primes">
+                </div>
+            </div>
+            <div class="products-display-footer-item">
+                <div class="products-display-footer-item__text">
+                    <h3 class='products-display-footer-item__text-title'>CONHEÇA NOSSOS PRODUTOS DE LEILÃO</h3>
+                    <p>As melhores oportunidades de compra.</p>
+                </div>
+                <div class="products-display-footer-item__img">
+                    <img src="./assets/img/conheca_o_leilao.png" alt="conheca-o-leilao">
+                </div>
+            </div>
+        </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="assets/js/carousel/main.js"></script>
+    <script src="assets/js/login/main.js"></script>
+    <script src="assets/js/shop/main.js"></script>
+
+  </body>
+</html>
