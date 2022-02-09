@@ -555,6 +555,18 @@ body {
   .products-display {
     position: absolute;
     top: 30%; }
+  .container-carousel {
+    padding: 3% 3%; }
+  .products-display-header {
+    justify-content: space-around; }
+  .products-display-header__h2 {
+    font-size: 86%; }
+  .products-display-time {
+    flex-direction: column;
+    margin-left: 6%;
+    width: 70%; }
+  .products-display-carousel__inner-box {
+    width: 40%; }
   .header {
     display: inline-block; }
     .header-img__logo {
