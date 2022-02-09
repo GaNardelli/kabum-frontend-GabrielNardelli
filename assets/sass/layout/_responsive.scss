@@ -120,12 +120,35 @@
     top: 112px;
   }
 
+  .display-carousel {
+    position: relative;
+    width: 100vmax;
+    height: 100vmax;
+    margin: auto;
+    display: block;
+    left: 20%;
+  }
+
+  .btn-comprar {
+    overflow: auto;
+  }
+
+  .rate {
+    margin-left: 50%;
+  }
+
   .products-display {
     position: absolute;
     top: 30%;
+    &-carousel__box {
+      display: flex;
+      flex-direction: column;
+      overflow: auto;
+      width: 100vw;
+    }
   }
   .container-carousel {
-    padding: 3% 3%;
+    padding: 0;
   }
   .products-display-header {
     justify-content: space-around;
@@ -142,6 +165,7 @@
 
   .products-display-carousel__inner-box {
     width: 40%;
+    height: 80%;
   }
   .header {
     display: inline-block;
@@ -155,6 +179,9 @@
     }
   }
 
+  .carousel-item__arrow {
+    display: none;
+  }
   .menu-btn {
     transform: translateY(50px) translateX(-40px);
   }
