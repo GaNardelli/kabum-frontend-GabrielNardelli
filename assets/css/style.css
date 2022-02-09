@@ -553,12 +553,8 @@ body {
     height: 100vh;
     top: 112px; }
   .display-carousel {
-    position: relative;
-    width: 100vmax;
-    height: 100vmax;
-    margin: auto;
-    display: block;
-    left: 20%; }
+    margin-left: 24%;
+    background-color: #fafafb; }
   .btn-comprar {
     overflow: auto; }
   .rate {
@@ -569,8 +565,7 @@ body {
     .products-display-carousel__box {
       display: flex;
       flex-direction: column;
-      overflow: auto;
-      width: 100vw; }
+      overflow: auto; }
   .container-carousel {
     padding: 0; }
   .products-display-header {
@@ -582,8 +577,9 @@ body {
     margin-left: 6%;
     width: 70%; }
   .products-display-carousel__inner-box {
-    width: 40%;
-    height: 80%; }
+    position: relative;
+    height: 80%;
+    left: -4%; }
   .header {
     display: inline-block; }
     .header-img__logo {
@@ -592,10 +588,16 @@ body {
     .header-search {
       transform: translateY(-60px) scale(0.7) translateX(-70px);
       margin-left: 10%; }
+  .products-display-carousel__inner-box-img img {
+    position: relative;
+    width: 100%;
+    margin-left: 25%; }
   .carousel-item__arrow {
     display: none; }
   .menu-btn {
-    transform: translateY(50px) translateX(-40px); } }
+    transform: translateY(50px) translateX(-40px); }
+  .products-display-footer-item {
+    align-items: center; } }
 
 .hide {
   display: none; }
